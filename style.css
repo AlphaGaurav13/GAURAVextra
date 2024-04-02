@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(to bottom, #f2ff5f, #fec77b); 
+  border-bottom: 5px rgb(156, 168, 92) solid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(190, 158, 31);
+}
+
+body{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #f2ff5f, #fec77b); 
+  
+}
+
+nav button{
+  border: none;
+  height: 50px;
+  width: 120px;
+  background-image: linear-gradient(to bottom, #ff7e5f, #fe7bf3);
+  border-radius: 35px;
+  font-family: "Roboto Slab", serif;
+}
+
+/* Base styling for the video player container */
+.video-player-container {
+  background-image: url(47289.jpg);
+  background-size: cover;
+  width: 1400px;
+  height: 500px;
+  background-color: #222;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Initial glow effect */
+  animation: glow 2s infinite alternate;
+justify-content: center;
+margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* Video player styling */
+.video-player {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+}
+
+/* Glow animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 50px rgba(0, 255, 255, 0.8);
+  }
+}
+
+
+.lectureNumber{
+  height: 400px;
+  width: 400px;
+  background-color: lightyellow;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+}
+
